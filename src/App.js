@@ -1,31 +1,19 @@
-
-
 function App() {
   return (
-    <div className="portfolio">
-      <h1>Hi, I'm ISAAC GIKARU</h1>
-      
-      <img 
-        src="https://lh3.googleusercontent.com/a/ACg8ocKGrV0m3U9LcsmaViefADIe07wgyb-buLlRsdfkHUlt4MlHXape=s288-c-no" 
-        alt=" profile picture" 
-      />
-      
+    <div>
+      <h1>Hi, I'm Your Name</h1>
+      <img
+  src="https://your-photo-url.jpg"
+  alt="Profile Picture"
+/>
+
       <h2>About Me</h2>
-      
       <p>
-        I am a passionate web developer with experience in React,Flutter, JavaScript, and modern web technologies.
-        I enjoy building user-friendly interfaces and solving complex problems with clean, efficient code.
-        When I'm not coding, I love hiking, reading, and exploring new technologies.
+        I am a passionate web developer with a love for learning, building
+        amazing things, and solving real-world problems through code.
       </p>
-      
-      <div className="links">
-        <a href="https://github.com/I-GIKARU" target="_blank" rel="noopener noreferrer">
-          GitHub
-        </a>
-        <a href="https://linkedin.com/in/I-GIKARU" target="_blank" rel="noopener noreferrer">
-          LinkedIn
-        </a>
-      </div>
+      <a href="https://github.com/yourusername">GitHub</a>
+      <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
     </div>
   );
 }
